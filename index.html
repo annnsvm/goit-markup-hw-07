@@ -24,6 +24,16 @@
         <a href="./index.html" class="logo-first"
           >WEB<span class="logo-second">STUDIO</span>
         </a>
+
+        <button type="button" class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg class="mobile-icon"
+          aria-label="Mobile menu switcher"
+          >
+            <use href="./images/icons.svg#menu"></use>
+          </svg>
+        </button>
+
+
         <ul class="site-nav">
           <li class="item "><a href="" class="link current">Studio</a></li>
           <li class="item"><a href="./portfolio.html" class="link">Portfolio</a></li>
@@ -44,6 +54,7 @@
       </address>
       </div>
     </header>
+
     <main>
       <section class="hero">
         <div class="container ">
@@ -154,13 +165,18 @@
         <h2 class="about title">What are we doing</h2>
         <ul class="about-list">
           <li class="item">
-            <img src="./images/desktop.jpg" alt="Desktop view" width="360" />
+            <img srcset="./images/desktop.jpg 1x, ./images/desktop@2x.jpg 2x"
+            src="./images/desktop.jpg" 
+            alt="Desktop view" 
+            width="360" />
           </li>
           <li class="item">
-            <img src="./images/screens.jpg" alt="Screens view" width="360" />
+            <img srcset="./images/screens.jpg 1x, ./images/screens@2x.jpg 2x"
+            src="./images/screens.jpg" alt="Screens view" width="360" />
           </li>
           <li class="item">
-            <img src="./images/example.jpg" alt="Example" width="360" />
+            <img srcset="./images/example.jpg 1x, ./images/example@2x.jpg 2x"
+            src="./images/example.jpg" alt="Example" width="360" />
           </li>
         </ul>
        </div>
@@ -171,36 +187,37 @@
           <h2 class="team title">Our Team</h2>
           <ul class="team-list">
             <li class="team-item">
-              <img src="./images/beard_man.jpg" alt="Beard Man" width="264" />
-              <div class="container team-descr">
+              <img srcset="./images/beard_man.jpg 1x, ./images/beard_man@2x.jpg 2x"
+              src="./images/beard_man.jpg" alt="Beard Man" width="264" />
+              <div class="team-descr">
                 <h3 class="team names">Mark Guerrero</h3>
               <p class="team position">Product Designer</p>
 
-              <ul class="team-socials-list">
-                <li class="team-socials-item">
-                  <a href="#" class="team-socials-link">
-                    <svg class="team-socials-icon">
+              <ul class="socials-list">
+                <li class="socials-item">
+                  <a href="#" class="socials-link">
+                    <svg class="socials-icon">
                   <use href="./images/icons.svg#instagram"></use>  
                 </svg>
               </a>
                   </li>
-                <li class="team-socials-item">
-                  <a href="#" class="team-socials-link">
-                    <svg class="team-socials-icon">
+                <li class="socials-item">
+                  <a href="#" class="socials-link">
+                    <svg class="socials-icon">
                   <use href="./images/icons.svg#twitter"></use>  
                 </svg>
               </a>
                   </li>
-                <li class="team-socials-item">
-                  <a href="#" class="team-socials-link">
-                    <svg class="team-socials-icon">
+                <li class="socials-item">
+                  <a href="#" class="socials-link">
+                    <svg class="socials-icon">
                   <use href="./images/icons.svg#facebook"></use>  
                 </svg>
               </a>
                   </li>
-                <li class="team-socials-item">
-                  <a href="#" class="team-socials-link">
-                    <svg class="team-socials-icon">
+                <li class="socials-item">
+                  <a href="#" class="socials-link">
+                    <svg class="socials-icon">
                   <use href="./images/icons.svg#linkedin"></use>  
                 </svg>
               </a>
@@ -210,35 +227,36 @@
             </div>
             </li>
             <li class="team-item">
-              <img src="./images/guy.jpg" alt="Guy" width="264" />
-              <div class="container team-descr">
+              <img srcset="./images/guy.jpg 1x, ./images/guy@2x.jpg 2x"
+              src="./images/guy.jpg" alt="Guy" width="264" />
+              <div class="team-descr">
                 <h3 class="team names">Tom Ford</h3>
               <p class="team position">Frontend Developer</p>
-              <ul class="team-socials-list">
-                <li class="team-socials-item">
-                  <a href="#" class="team-socials-link">
-                    <svg class="team-socials-icon">
+              <ul class="socials-list">
+                <li class="socials-item">
+                  <a href="#" class="socials-link">
+                    <svg class="socials-icon">
                   <use href="./images/icons.svg#instagram"></use>  
                 </svg>
               </a>
                   </li>
-                <li class="team-socials-item">
-                  <a href="#" class="team-socials-link">
-                    <svg class="team-socials-icon">
+                <li class="socials-item">
+                  <a href="#" class="socials-link">
+                    <svg class="socials-icon">
                   <use href="./images/icons.svg#twitter"></use>  
                 </svg>
               </a>
                   </li>
-                <li class="team-socials-item">
-                  <a href="#" class="team-socials-link">
-                    <svg class="team-socials-icon">
+                <li class="socials-item">
+                  <a href="#" class="socials-link">
+                    <svg class="socials-icon">
                   <use href="./images/icons.svg#facebook"></use>  
                 </svg>
               </a>
                   </li>
-                <li class="team-socials-item">
-                  <a href="#" class="team-socials-link">
-                    <svg class="team-socials-icon">
+                <li class="socials-item">
+                  <a href="#" class="socials-link">
+                    <svg class="socials-icon">
                   <use href="./images/icons.svg#linkedin"></use>  
                 </svg>
               </a>
@@ -247,35 +265,36 @@
             </div>
             </li>
             <li class="team-item">
-              <img src="./images/girl.jpg" alt="Girl" width="264" />
-              <div class="container team-descr">
+              <img srcset="./images/girl.jpg 1x, ./images/girl@2x.jpg 2x"
+              src="./images/girl.jpg" alt="Girl" width="264" />
+              <div class="team-descr">
                 <h3 class="team names">Camila Garcia</h3>
               <p class="team position">Marketing</p>
-              <ul class="team-socials-list">
-                <li class="team-socials-item">
-                  <a href="#" class="team-socials-link">
-                    <svg class="team-socials-icon">
+              <ul class="socials-list">
+                <li class="socials-item">
+                  <a href="#" class="socials-link">
+                    <svg class="socials-icon">
                   <use href="./images/icons.svg#instagram"></use>  
                 </svg>
               </a>
                   </li>
-                <li class="team-socials-item">
-                  <a href="#" class="team-socials-link">
-                    <svg class="team-socials-icon">
+                <li class="socials-item">
+                  <a href="#" class="socials-link">
+                    <svg class="socials-icon">
                   <use href="./images/icons.svg#twitter"></use>  
                 </svg>
               </a>
                   </li>
-                <li class="team-socials-item">
-                  <a href="#" class="team-socials-link">
-                    <svg class="team-socials-icon">
+                <li class="socials-item">
+                  <a href="#" class="socials-link">
+                    <svg class="socials-icon">
                   <use href="./images/icons.svg#facebook"></use>  
                 </svg>
               </a>
                   </li>
-                <li class="team-socials-item">
-                  <a href="#" class="team-socials-link">
-                    <svg class="team-socials-icon">
+                <li class="socials-item">
+                  <a href="#" class="socials-link">
+                    <svg class="socials-icon">
                   <use href="./images/icons.svg#linkedin"></use>  
                 </svg>
               </a>
@@ -284,35 +303,36 @@
             </div>
             </li>
             <li class="team-item">
-              <img src="./images/man.jpg" alt="Man" width="264" />
-              <div class="container team-descr">
+              <img srcset="./images/man.jpg 1x, ./images/man@2x.jpg 2x"
+              src="./images/man.jpg" alt="Man" width="264" />
+              <div class="team-descr">
                 <h3 class="team names">Daniel Wilson</h3>
               <p class="team position">UI Designer</p>
-              <ul class="team-socials-list">
-                <li class="team-socials-item">
-                  <a href="#" class="team-socials-link">
-                    <svg class="team-socials-icon">
+              <ul class="socials-list">
+                <li class="socials-item">
+                  <a href="#" class="socials-link">
+                    <svg class="socials-icon">
                   <use href="./images/icons.svg#instagram"></use>  
                 </svg>
               </a>
                   </li>
-                <li class="team-socials-item">
-                  <a href="#" class="team-socials-link">
-                    <svg class="team-socials-icon">
+                <li class="socials-item">
+                  <a href="#" class="socials-link">
+                    <svg class="socials-icon">
                   <use href="./images/icons.svg#twitter"></use>  
                 </svg>
               </a>
                   </li>
-                <li class="team-socials-item">
-                  <a href="#" class="team-socials-link">
-                    <svg class="team-socials-icon">
+                <li class="socials-item">
+                  <a href="#" class="socials-link">
+                    <svg class="socials-icon">
                   <use href="./images/icons.svg#facebook"></use>  
                 </svg>
               </a>
                   </li>
-                <li class="team-socials-item">
-                  <a href="#" class="team-socials-link">
-                    <svg class="team-socials-icon">
+                <li class="socials-item">
+                  <a href="#" class="socials-link">
+                    <svg class="socials-icon">
                   <use href="./images/icons.svg#linkedin"></use>  
                 </svg>
               </a>
@@ -377,7 +397,7 @@
     </main>
    
     <footer class="section footer">
-      <div class="container-footer">
+      <div class="container footer">
         <div class="container-footer-title"> 
         <a href="./index.html" class="logo-first"
         >WEB<span class="logo-second-footer">STUDIO</span>
@@ -430,10 +450,68 @@
           </div>
         </form>
       </div>
-
     </div>
     </footer>
+
+    <div class="menu-container js-menu-container " id="mobile-menu">
+      <button type="button" class="menu-toggle js-close-menu" >
+        <svg class="mobile-icon-close"
+        aria-label="Mobile menu switcher">
+          <use class="icon-cross" href="./images/icons.svg#close"></use>
+        </svg>
+      </button>
+
+      <ul class="site-nav mobile">
+        <li class="item mobile"><a href="" class="link current">Studio</a></li>
+        <li class="item mobile"><a href="./portfolio.html" class="link">Portfolio</a></li>
+        <li class="item mobile"><a href="" class="link">Contacts</a></li>
+      </ul>
+    </nav>
+    <address class="adress-mobile">
+      <ul class="site-contacts mobile">
+        <li class="item mobile">
+          <a href="mailto:info@devstudio.com" class="contacts mobile"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="item mobile">
+          <a href="tel:+110001111111" class="contacts phone">+11 (000) 111-11-11</a>
+        </li>
+      </ul>
+    </address>
+    <ul class="socials-list">
+      <li class="socials-item">
+        <a href="#" class="socials-link">
+          <svg class="socials-icon-mobile">
+        <use href="./images/icons.svg#instagram"></use>  
+      </svg>
+    </a>
+        </li>
+      <li class="socials-item">
+        <a href="#" class="socials-link">
+          <svg class="socials-icon-mobile">
+        <use href="./images/icons.svg#twitter"></use>  
+      </svg>
+    </a>
+        </li>
+      <li class="socials-item">
+        <a href="#" class="socials-link">
+          <svg class="socials-icon-mobile">
+        <use href="./images/icons.svg#facebook"></use>  
+      </svg>
+    </a>
+        </li>
+      <li class="socials-item">
+        <a href="#" class="socials-link">
+          <svg class="socials-icon-mobile">
+        <use href="./images/icons.svg#linkedin"></use>  
+      </svg>
+    </a>
+        </li>
+    </ul>
+    </div>
     
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
