@@ -258,7 +258,7 @@ padding: 0;
 
 .site-nav.mobile {
   display: block;
-  margin-bottom: 284px;
+  margin-bottom: auto;
 }
 
 
@@ -1049,6 +1049,10 @@ width: 100%;
   justify-content: center;
 }
 
+.socials-list.mobile{
+  justify-content: space-between;
+}
+
 .socials-list-footer{
   display: flex;
   gap: 16px;
@@ -1635,6 +1639,8 @@ margin-right: auto;
 }
 
 .menu-container {
+  display: flex;
+  flex-direction: column;
   position: fixed;
   top: 0;
   left: 0;
